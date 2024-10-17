@@ -1,0 +1,1 @@
+Code associated with the paper "Carboxylate Salts Soluble in Organic Solvents  Significantly Expands the Substrate Scope for Pd-catalyzed C-N Cross-Coupling Reactions"

@@ -1,0 +1,44 @@
+[project]
+name = "abbvie-cn-couplings"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "morfeus-ml>=0.7.2",
+    "notebook>=7.2.2",
+    "orca-parser>=0.2.8",
+    "pandas>=2.2.3",
+    "pip>=24.2",
+    "rdkit==2024.3.2",
+    "scikit-learn>=1.5.2",
+    "seaborn>=0.13.2",
+    "yellowbrick>=1.5",
+]
+
+[tool.ruff]
+line-length = 120
+select = [
+  "E",   # pycodestyle
+  "F",   # pyflakes
+  "UP",  # pyupgrade
+  "I001",# isort
+  "D",   # pydocstyle
+]
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.mypy]
+
+[[tool.mypy.overrides]]
+module = ['*.*']
+ignore_missing_imports = true
+
+[tool.uv]
+dev-dependencies = [
+    "ipykernel>=6.29.5",
+    "mypy>=1.11.2",
+    "ruff>=0.6.8",
+]
