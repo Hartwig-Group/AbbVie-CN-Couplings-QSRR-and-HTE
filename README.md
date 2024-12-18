@@ -38,10 +38,10 @@ $ uv run --with jupyter jupyter lab
 abbvie-cn-couplings/
 |-- data/
 |   |-- ligand-qsar/
+|   |-- substrate-clustering/
 |-- notebooks/
 |   |-- ligand-qsar/
-|   |  |-- nh-bivariate-thresholding.ipynb
-|   |  |-- ... 
+|   |-- substrate-clustering/
 |-- pyproject.toml
 |-- uv.lock
 |-- README.md
