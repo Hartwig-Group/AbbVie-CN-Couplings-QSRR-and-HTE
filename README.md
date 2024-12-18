@@ -8,7 +8,7 @@ Zenodo (including DFT calculations and structures):
 
 ## Project
 
-The code for this project is broken into two main sections: `ligand-qsar` which is focused on the chemoinformatic investigation of ligand activity and yields; and and the other for substrate clustering and selection for HTE.
+The code for this project is broken into two main sections: `ligand-qsar` which is focused on the chemoinformatic investigation of ligand activity and yields; and `substrate-clustering` for substrate clustering and selection for HTE.
 
 ## Installation
 
@@ -24,6 +24,12 @@ Then to run any code, run then using the virtual environment created by uv:
 
 ```bash
 $ uv run python my_script.py
+```
+
+Or read these [instructions](https://docs.astral.sh/uv/guides/integration/jupyter/) to run jupyter notebook:
+
+```bash
+$ uv run --with jupyter jupyter lab
 ```
 
 ## Repository Structure
