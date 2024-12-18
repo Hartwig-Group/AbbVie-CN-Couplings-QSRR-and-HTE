@@ -8,7 +8,7 @@ Zenodo (including DFT calculations and structures):
 
 ## Project
 
-The code for this project is broken into two main sections: `ligand-qsar` which is focused on the chemoinformatic investigation of ligand activity and yields; and `substrate-clustering` for substrate clustering and selection for HTE.
+The code for this project is broken into two main sections: `ligand-qsar` which is focused on the chemoinformatic investigation of ligand activity and yields; and `substrate-space` for substrate clustering and selection for HTE.
 
 ## Installation
 
@@ -38,10 +38,10 @@ $ uv run --with jupyter jupyter lab
 abbvie-cn-couplings/
 |-- data/
 |   |-- ligand-qsar/
-|   |-- substrate-clustering/
+|   |-- substrate-space/
 |-- notebooks/
 |   |-- ligand-qsar/
-|   |-- substrate-clustering/
+|   |-- substrate-space/
 |-- pyproject.toml
 |-- uv.lock
 |-- README.md
@@ -49,12 +49,12 @@ abbvie-cn-couplings/
 The "abbvie-cn-couplings" project is organized into several key directories, each serving a distinct purpose. Below is an overview of the main components:
 
 **1. data/**
-   - Folder for datasets and other relevant data files used in the project. This is broken into two folders, one for the ligand-qsar and the other for substrate clustering.
+   - Folder for datasets and other relevant data files used in the project. This is broken into two folders, one for the ligand-qsar and the other for substrate-space.
    
 **2. notebooks/ligand-qsar/**
    - Jupyter notebooks associated with the qsar modeling of ligand activity and yields.
      
-**3. notebooks/substrate-clustering/**
+**3. notebooks/substrate-space/**
   - Jupyter notebooks associated substrate clustering and selection.
 
 **4. pyproject.toml**
