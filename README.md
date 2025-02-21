@@ -16,7 +16,7 @@ This repository uses [uv](https://github.com/astral-sh/uv) to manage and install
 
 ```bash
 $ git clone git@github.com:Hartwig-Group/Abbvie-CN-Couplings-QSRR-and-HTE.git
-$ cd Abbvie-CN-Couplings
+$ cd Abbvie-CN-Couplings-QSRR-and-HTE
 $ uv sync
 ```
 
@@ -35,7 +35,7 @@ $ uv run --with jupyter jupyter lab
 ## Repository Structure
 
 ```
-abbvie-cn-couplings/
+Abbvie-CN-Couplings-QSRR-and-HTE/
 |-- data/
 |   |-- ligand-qsar/
 |   |-- substrate-space/
@@ -46,7 +46,7 @@ abbvie-cn-couplings/
 |-- uv.lock
 |-- README.md
 ```
-The "abbvie-cn-couplings" project is organized into several key directories, each serving a distinct purpose. Below is an overview of the main components:
+The "Abbvie-CN-Couplings-QSRR-and-HTE" project is organized into several key directories, each serving a distinct purpose. Below is an overview of the main components:
 
 **1. data/**
    - Folder for datasets and other relevant data files used in the project. This is broken into two folders, one for the ligand-qsar and the other for substrate-space.
