@@ -1,6 +1,6 @@
 # Overview 
 
-This repository includes all code associated with the with the paper "Unleashing the Power of Potassium 2-Ethylhexanoate as a Mild and Soluble Base for Pd-catalyzed C-N Cross-Coupling" and instructions for reproducibility.
+This repository includes all code associated with the with the paper _**"Unleashing the Power of Potassium 2-Ethylhexanoate as a Mild and Soluble Base for Pd-catalyzed C-N Cross-Coupling"**_ and instructions for reproducibility.
 
 Paper: 
 
