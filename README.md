@@ -4,7 +4,7 @@ This repository includes all code associated with the with the paper "Unleashing
 
 Paper: 
 
-Zenodo (including DFT calculations and structures): 
+Zenodo Archive: 
 
 ## Project
 
