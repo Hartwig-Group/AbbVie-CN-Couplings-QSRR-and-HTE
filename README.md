@@ -8,7 +8,7 @@ Zenodo Archive:
 
 ## Project
 
-The code for this project is broken into two main sections: `ligand-qsar` which is focused on the chemoinformatic investigation of ligand activity and yields; and `substrate-space` for substrate clustering and selection for HTE.
+The code for this project is broken into two main sections: `ligand-qsar` which is focused on the chemoinformatic investigation of ligand reactivity and yields; and `substrate-space` for substrate clustering and selection for HTE.
 
 ## Installation
 
