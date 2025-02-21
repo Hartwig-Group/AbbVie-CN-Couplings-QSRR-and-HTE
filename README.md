@@ -15,7 +15,7 @@ The code for this project is broken into two main sections: `ligand-qsar` which 
 This repository uses [uv](https://github.com/astral-sh/uv) to manage and install the dependencies. To install the dependencies, install uv and run the following command:
 
 ```bash
-$ git clone git@github.com:Hartwig-Group/Abbvie-CN-Couplings.git
+$ git clone git@github.com:Hartwig-Group/Abbvie-CN-Couplings-QSRR-and-HTE.git
 $ cd Abbvie-CN-Couplings
 $ uv sync
 ```
