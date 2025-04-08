@@ -1,0 +1,17 @@
+﻿Electrophile,SMILES String,CAS Number,RMM Availability,Link
+el1299,Cc1cc(C=O)c(OCc2ccccc2)cc1Br,2056110-59-7,Yes,https://www.ambeed.com/products/2056110-59-7.html
+el2488,OCc1ccc(Cl)cc1,873-76-7,Yes,
+el561,CCOC(=O)c1cnn(-c2ccc(Br)cc2)c1C(F)(F)F,618070-60-3,-,
+el2516,COc1cccnc1Cl,52605-96-6,Yes,https://www.ambeed.com/products/52605-96-6.html
+el1451v2,COC1=CC=C2C=C(C(Cl)=NC2=C1)C1=CC=CC=C1,85274-56-2,Yes,https://www.combi-blocks.com/cgi-bin/find.cgi?QI-4601
+el89v2,CC1=C(Br)C2=C(S1)C=CC=C2,10243-15-9,Yes,https://www.combi-blocks.com/cgi-bin/find.cgi?OS-2105
+el2487,CC(C)(C)OC(=O)n1ccc2ccc(Cl)cc21,323580-68-3,Yes,
+el301,COC(=O)c1ccc(F)c(Br)c1,82702-31-6,Yes,
+el1300,CN1CCN(c2ncc(Br)cn2)CC1,141302-36-5,Yes,
+el1413,COC(=O)c1ccc(Br)c(C(=O)OC)c1,28730-78-1,Yes,
+el506,CC(C)(C)OC(=O)n1ccc2cc(Br)ccc21,182344-70-3,Yes,https://www.ambeed.com/products/182344-70-3.html
+el2585v2,COC1=CC2=C(C=C1OCC1=CC=CC=C1)N=CC=C2Cl,286371-49-1,Yes,https://www.oakwoodchemical.com/ProductsList.aspx?CategoryID=-2&txtSearch=77921&ExtHyperLink=1
+el594,CC1=NC2=CC(Br)=CC=C2S1,63837-11-6,Yes,https://www.ambeed.com/products/63837-11-6.html
+el524,BrC1=CC=CC=C1N1CCOCC1,87698-82-6,Yes,https://www.ambeed.com/products/87698-82-6.html
+el1346v2,BrC1=CC2=C(OC(=N2)C2=CC=CC=C2)C=C1,69918-19-0,-,https://www.combi-blocks.com/cgi-bin/find.cgi?HF-3702
+el2752,COc1ccc(C)c(Cl)c1,54788-38-4,Yes,

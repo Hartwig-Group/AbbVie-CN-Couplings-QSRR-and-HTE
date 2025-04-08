@@ -55,7 +55,8 @@ The "Abbvie-CN-Couplings-QSRR-and-HTE" project is organized into several key dir
    - Jupyter notebooks associated with the qsar modeling of ligand activity and yields.
      
 **3. notebooks/substrate-space/**
-  - Jupyter notebooks associated substrate clustering and selection.
+  - Jupyter notebooks associated with (1) scraping literature reactions, (2) calculating RDF descriptors, (3) substrate clustering using those descriptors and selection for HTE, and (4) HTE results.
+  - Note: instructions for creating a new venv to calculate substrate descriptors are included in the preparation.ipynb file in folder (1). That environment is only used for calculating substrate descriptors, which are then used by the notebooks included here for processing. 
 
 **4. pyproject.toml**
    - TOML file specifying the project's dependencies and environment configuration, facilitating reproducibility.

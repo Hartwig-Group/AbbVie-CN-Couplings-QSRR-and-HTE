@@ -1,0 +1,37 @@
+Electrophile clusters to exclude and why:
+
+0 - OK, just triage (a few 2-chloro pyridines, mostly bromo)
+1 - OK (same as above)
+2 - OK, but exclude 1893, 
+3 - OK, some 2-brpyridines. Seems OK
+4 - OK, but exclude 1443, 1445, 1448, 2376
+5 - OK, exclude 2222, 2223
+6 - Exclude mostly 2-bromo and 2-chloro pyridines. Some pyrimidines.
+7 - OK, rare 2-br pyridine in there
+8 - OK
+9 - OK, but exclude 552, 2363, 2406
+10 - OK, USE 43 or 404
+11 - OK, exclude 428, 1923
+12 - Exclude
+13 - OK, exclude 1822, 1896, 2220, 2221, 2461, 
+14 - OK, exclude 2008, 2025, 2027, 2319, 2625, 2891, 2841, 2495
+15 - OK
+16 - Exclude mostly 2-chloropyrimidines, and some 2-chloropyridines. Concerned about SNAr (at abbvie's request)
+17 - Exclude
+18 - Exclude
+19 - Exclude
+20 - Exclude
+21 - Exclude
+22 - Exclude more than half - some are e- rich 2-chloropyridines...maybe add in?
+23 - OK, exclude  2839, 2812, 2769, 2709, 2618, 2462, 2294, 
+24 - OK
+25 - OK
+26 - Exclude
+27 - OK, exclude  2826, 
+28 - OK, exclude 1898, 2235, 2238
+29 - Exclude more than half - at least 2697, 2389, 2388, 2073, 2031, 1678, 1661, 196
+30 - OK, exclude  1483, 1484, 1489, 1497, 1498, 1499, 1525, 1541, 1622, 1724, 1725, 1847, 1973, 2114, 2213, 2547, 2578, 2641, 2703, 2781, 2796
+31 - OK
+32 - Exclude
+33 - OK, exclude 1681, 1689, 1781, 1938, 2044, 2045, 2088, 2094, 2161, 2165, 2175, 2279, 2280, 2281, 2387, 2431, 2522, 2707, 2827
+34 - OK
