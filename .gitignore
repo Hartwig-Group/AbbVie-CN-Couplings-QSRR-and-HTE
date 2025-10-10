@@ -161,5 +161,19 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-data/dft/*
+# Ignore everything under data/dft recursively
+data/dft/**
+
+# Re-allow the path down to the specific files
+!data/dft/qsar/
+!data/dft/qsar/benzylamine/
+!data/dft/qsar/benzylamine/submission/
+
+# Keep only these files
+!data/dft/qsar/benzylamine/submission/benzyl-template.mol2
+!data/dft/qsar/benzylamine/submission/ligands.cdxml
+!data/dft/qsar/benzylamine/submission/Ni(CO)3.mol2
+!data/dft/qsar/benzylamine/submission/ligands-tolman.cdxml
+
+# This still ignores VS Code settings (remove if you want it tracked)
 .vscode/settings.json
