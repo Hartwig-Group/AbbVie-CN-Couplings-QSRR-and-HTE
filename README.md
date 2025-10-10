@@ -1,35 +1,41 @@
-# Overview 
+# Overview
 
-This repository includes all code associated with the with the paper _**"Unleashing the Power of Potassium 2-Ethylhexanoate as a Mild and Soluble Base for Pd-catalyzed C-N Cross-Coupling"**_ and instructions for reproducibility.
+This repository contains the code and data associated with the paper _**"Unleashing the Power of Potassium 2-Ethylhexanoate as a Mild and Soluble Base for Pd-catalyzed C-N Cross-Coupling"**_.
 
-Paper: 
+**Paper:** [Link to be added]
 
-Zenodo Archive: 
+**Zenodo Archive:** [Link to be added]
 
 ## Project
 
-The code for this project is broken into two main sections: `ligand-qsar` which is focused on the chemoinformatic investigation of ligand reactivity and yields; and `substrate-space` for substrate clustering and selection for HTE.
+This project is divided into two main components:
+*   `ligand-qsar`: A chemoinformatic investigation of ligand reactivity and yields.
+*   `substrate-space`: Substrate clustering and selection for High-Throughput Experimentation (HTE).
 
 ## Installation
 
-This repository uses [uv](https://github.com/astral-sh/uv) to manage and install the dependencies. To install the dependencies, install uv and run the following command:
+This repository uses [uv](https://github.com/astral-sh/uv) for dependency management.
+
+First, install `uv`. Then, clone the repository and create the virtual environment by running the following commands:
 
 ```bash
-$ git clone git@github.com:Hartwig-Group/Abbvie-CN-Couplings-QSRR-and-HTE.git
-$ cd Abbvie-CN-Couplings-QSRR-and-HTE
-$ uv sync
+git clone git@github.com:Hartwig-Group/Abbvie-CN-Couplings-QSRR-and-HTE.git
+cd Abbvie-CN-Couplings-QSRR-and-HTE
+uv sync
 ```
 
-Then to run any code, run then using the virtual environment created by uv:
+To run scripts or notebooks, use the `uv run` command, which executes commands within the managed virtual environment.
 
+**Run a Python script:**
 ```bash
-$ uv run python my_script.py
+uv run python my_script.py
 ```
 
-Or read these [instructions](https://docs.astral.sh/uv/guides/integration/jupyter/) to run jupyter notebook:
+**Run Jupyter Lab:**
+For guidance on integrating `uv` with IDEs or other tools, refer to the official [integration guide](https://docs.astral.sh/uv/guides/integration/). To launch Jupyter Lab, you can run:
 
 ```bash
-$ uv run --with jupyter jupyter lab
+uv run --with jupyter jupyter lab
 ```
 
 ## Repository Structure
@@ -38,7 +44,6 @@ $ uv run --with jupyter jupyter lab
 Abbvie-CN-Couplings-QSRR-and-HTE/
 |-- data/
 |   |-- ligand-qsar/
-|   |-- substrate-space/
 |-- notebooks/
 |   |-- ligand-qsar/
 |   |-- substrate-space/
@@ -46,26 +51,31 @@ Abbvie-CN-Couplings-QSRR-and-HTE/
 |-- uv.lock
 |-- README.md
 ```
-The "Abbvie-CN-Couplings-QSRR-and-HTE" project is organized into several key directories, each serving a distinct purpose. Below is an overview of the main components:
 
-**1. data/**
-   - Folder for datasets and other relevant data files used in the project. This is broken into two folders, one for the ligand-qsar and the other for substrate-space.
-   
-**2. notebooks/ligand-qsar/**
-   - Jupyter notebooks associated with the qsar modeling of ligand activity and yields.
-     
-**3. notebooks/substrate-space/**
-  - Jupyter notebooks associated with (1) scraping literature reactions, (2) calculating RDF descriptors, (3) substrate clustering using those descriptors and selection for HTE, and (4) HTE results.
-  - Note: instructions for creating a new venv to calculate substrate descriptors are included in the preparation.ipynb file in folder (1). That environment is only used for calculating substrate descriptors, which are then used by the notebooks included here for processing. 
+*   **`data/`**: Contains the datasets used in the project, organized by component.
+*   **`notebooks/ligand-qsar/`**: Jupyter notebooks for the QSRR modeling of ligand reactivity.
+*   **`notebooks/substrate-space/`**: Jupyter notebooks for:
+    1.  Scraping literature reactions.
+    2.  Calculating RDF descriptors.
+    3.  Clustering substrates using these descriptors and selecting them for HTE.
+    4.  Analyzing HTE results.
+    > **Note:** The calculation of substrate descriptors requires a separate environment due to specific dependencies. Instructions for creating this environment are detailed in the `preparation.ipynb` notebook within this directory. This secondary environment is *only* for the descriptor calculation step.
+*   **`pyproject.toml`**: Project metadata and dependencies, managed by `uv`.
+*   **`uv.lock`**: A lockfile that ensures reproducible installation of dependencies.
+*   **`README.md`**: This file.
 
-**4. pyproject.toml**
-   - TOML file specifying the project's dependencies and environment configuration, facilitating reproducibility.
+## Citation
 
-**5. uv.lock**
-   - UV lock file to ensure reproducibility in environment creation.
+If you use the code or data from this repository in your work, please cite our paper:
 
-**6. README.md**
-   - The project's main documentation providing a high-level overview, usage instructions, and any other essential information for collaborators and users.
-
-## Citation 
-
+```bibtex
+@article{YourLastName_2024,
+  title={Unleashing the Power of Potassium 2-Ethylhexanoate as a Mild and Soluble Base for Pd-catalyzed C-N Cross-Coupling},
+  author={Author, A. and Author, B.},
+  journal={Journal Name},
+  year={2024},
+  volume={XX},
+  pages={YYYY-ZZZZ},
+  doi={...}
+}
+```
