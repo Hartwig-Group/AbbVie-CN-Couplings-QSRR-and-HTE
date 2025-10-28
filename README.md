@@ -1,6 +1,6 @@
 # Unleashing the Power of Potassium 2‑Ethylhexanoate as a Mild and Soluble Base for Pd-Catalyzed C−N Cross-Coupling
 <p align="center">
-  <img src="img/toc.png" alt="toc" width="60%">
+  <img src="img/toc.png" alt="toc" width="70%">
 </p>
 <a href="https://doi.org/10.5281/zenodo.17466975">
   <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17466975.svg"
