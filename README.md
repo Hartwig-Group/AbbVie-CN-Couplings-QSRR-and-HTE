@@ -1,5 +1,4 @@
-# Unleashing the Power of Potassium 2-Ethylhexanoate as a Mild and Soluble Base for Pd-catalyzed C-N Cross-Coupling
-
+# Unleashing the Power of Potassium 2‑Ethylhexanoate as a Mild and Soluble Base for Pd-Catalyzed C−N Cross-Coupling
 <p align="center">
   <img src="img/toc.png" alt="toc" width="60%">
 </p>
@@ -10,7 +9,7 @@
 
 ## Overview
 
-This repository contains the code and data associated with the paper _**"Unleashing the Power of Potassium 2-Ethylhexanoate as a Mild and Soluble Base for Pd-catalyzed C-N Cross-Coupling"**_.
+This repository contains the code and data associated with the paper _**"Unleashing the Power of Potassium 2‑Ethylhexanoate as a Mild and Soluble Base for Pd-Catalyzed C−N Cross-Coupling"**_.
 
 
 ## Project
