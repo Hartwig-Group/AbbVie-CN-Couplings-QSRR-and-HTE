@@ -3,17 +3,15 @@
 <p align="center">
   <img src="img/toc.png" alt="toc" width="60%">
 </p>
-
-<p align="center">
-  <a href="https://doi.org/10.5281/zenodo.17466975">
-    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17466975.svg"
-         alt="DOI: 10.5281/zenodo.17466975" width="150">
-  </a>
-</p>
+<a href="https://doi.org/10.5281/zenodo.17466975">
+  <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17466975.svg"
+       alt="DOI: 10.5281/zenodo.17466975" width="150">
+</a>
 
 ## Overview
 
 This repository contains the code and data associated with the paper _**"Unleashing the Power of Potassium 2-Ethylhexanoate as a Mild and Soluble Base for Pd-catalyzed C-N Cross-Coupling"**_.
+
 
 ## Project
 
